@@ -1,0 +1,20 @@
+
+Department Search Comparison
+
+Target: IT
+Linear Search: Found
+Linear comparisons: 7
+Binary Search: Found
+Binary comparisons: 3
+
+Target: Backend
+Linear Search: Found
+Linear comparisons: 1
+Binary Search: Found
+Binary comparisons: 3
+
+Target: Testing
+Linear Search: Found
+Linear comparisons: 8
+Binary Search: Found
+Binary comparisons: 4

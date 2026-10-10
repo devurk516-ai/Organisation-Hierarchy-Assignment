@@ -1,0 +1,49 @@
+
+TRACE TABLE 1: LEVEL-ORDER TRAVERSAL
+
+Step | Visited Node | Children Added to Queue
+1    | CEO          | HR, Finance, IT
+2    | HR           | None
+3    | Finance      | None
+4    | IT           | Development, Testing
+5    | Development  | Frontend, Backend
+6    | Testing      | None
+7    | Frontend     | None
+8    | Backend      | None
+
+TRACE TABLE 2: SEARCH COMPARISONS
+
+Target  | Linear Search | Binary Search
+IT      | 7             | 3
+Backend | 1             | 3
+Testing | 8             | 4
+
+TRACE TABLE 3: BINARY SEARCH FOR IT
+
+Sorted array:
+0 Backend
+1 CEO
+2 Development
+3 Finance
+4 Frontend
+5 HR
+6 IT
+7 Testing
+
+Step 1:
+Low = 0, High = 7, Mid = 3
+Checked: Finance
+IT comes after Finance.
+New Low = 4
+
+Step 2:
+Low = 4, High = 7, Mid = 5
+Checked: HR
+IT comes after HR.
+New Low = 6
+
+Step 3:
+Low = 6, High = 7, Mid = 6
+Checked: IT
+Department found.
+Total comparisons = 3

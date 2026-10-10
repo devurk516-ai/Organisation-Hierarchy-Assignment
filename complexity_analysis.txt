@@ -1,0 +1,70 @@
+
+COMPLEXITY ANALYSIS
+
+1. Tree Construction
+The tree contains 8 nodes. Each department is created
+and connected to its parent.
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+2. Level-Order Traversal
+The traversal visits every node once using a queue.
+Time Complexity: O(n)
+Space Complexity: O(n) in the worst case.
+
+3. Linear Search
+Linear Search checks department names one by one.
+Best Case: O(1)
+Worst Case: O(n)
+Auxiliary Space: O(1)
+
+4. Binary Search
+Binary Search repeatedly divides the sorted array
+into smaller halves.
+Best Case: O(1)
+Worst Case: O(log n)
+Auxiliary Space: O(1)
+
+TREE ANALYSIS
+
+The tree height is 4 levels when the CEO is counted
+as level 1. The longest path contains 3 edges.
+
+Level-order traversal visits the departments level
+by level, starting from the CEO.
+
+COMPARISON TABLE
+
+Operation: Tree construction
+Time: O(n)
+Space: O(n)
+
+Operation: Level-order traversal
+Time: O(n)
+Space: O(n) worst case
+
+Operation: Linear Search
+Time: O(n) worst case
+Space: O(1) auxiliary
+
+Operation: Binary Search
+Time: O(log n) worst case
+Space: O(1) auxiliary
+
+FINAL CONCLUSION
+
+A general tree is suitable for representing the
+company's organisational hierarchy because it
+maintains parent-child relationships.
+
+Level-order traversal displays the departments
+level by level.
+
+Linear Search is simple and suitable for small
+or unsorted lists. Binary Search is faster for
+large, sorted department lists.
+
+Therefore, a general tree is suitable for
+organisational reporting, and Binary Search is
+preferable for repeated department searches
+when the list is kept sorted.

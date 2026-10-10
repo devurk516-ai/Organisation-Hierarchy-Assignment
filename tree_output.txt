@@ -1,0 +1,11 @@
+
+Organisational Hierarchy:
+CEO
+  HR
+  Finance
+  IT
+    Development
+      Frontend
+      Backend
+    Testing
+Level-order traversal: CEO HR Finance IT Development Testing Frontend Backend

@@ -1,0 +1,31 @@
+
+Organisational Hierarchy:
+
+CEO -> HR, Finance, IT
+IT -> Development, Testing
+Development -> Frontend, Backend
+
+Department Names:
+CEO
+HR
+Finance
+IT
+Development
+Testing
+Frontend
+Backend
+
+Search Targets:
+IT
+Backend
+Testing
+
+Sorted Department List:
+Backend
+CEO
+Development
+Finance
+Frontend
+HR
+IT
+Testing
